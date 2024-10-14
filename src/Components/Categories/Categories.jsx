@@ -48,14 +48,14 @@ export default function Categories() {
                 <div className="category">
                   <div
                     key={category._id}
-                    className="text-center hover:shadow-xl hover:shadow-emerald-500 transition-shadow duration-500  rounded-full py-8   "
+                    className="text-center hover:shadow-xl hover:shadow-emerald-500 transition-shadow duration-500 rounded-3xl py-8   "
                   >
                     <Link to={`/categoryProducts/${category.name}`}>
                       {/* Category image */}
-                      <div className="bg-emerald-300 flex items-center justify-center mx-8 rounded-lg hover:shadow-xl shadow-xl  mt-1">
+                      <div className="bg-emerald-300 flex items-center justify-center mx-8 rounded-3xl hover:shadow-xl shadow-xl  mt-1">
                         <img
                           src={category.image}
-                          className="w-3/5 h-80  object-cover rounded-3xl"
+                          className="w-[60%] h-80  object-cover rounded-3xl"
                           alt={category.name} // Alt text for accessibility
                         />
                       </div>
