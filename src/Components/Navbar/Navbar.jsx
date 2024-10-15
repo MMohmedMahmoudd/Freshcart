@@ -184,10 +184,10 @@ export default function Navbar() {
                   </span>
                 ) : (
                   <>
-                    <Link to="login" className="text-sm bg-emerald-600 p-2 rounded-md">
+                    <Link to="login" className="text-sm bg-emerald-600 p-2 rounded-md text-white">
                       Login
                     </Link>
-                    <Link to="signup" className="text-sm bg-emerald-600 p-2 rounded-md">
+                    <Link to="signup" className="text-sm bg-emerald-600 p-2 rounded-md text-white">
                       Register
                     </Link>
                   </>
