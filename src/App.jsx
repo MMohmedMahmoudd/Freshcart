@@ -42,6 +42,15 @@ function App() {
           ),
         },
 
+        {
+          path: "Freshcart",
+          element: (
+            <ProtectedRoute>
+              <Home />
+            </ProtectedRoute>
+          ),
+        },
+
         // Brands route, protected by ProtectedRoute
         {
           path: "brands",
@@ -104,7 +113,7 @@ function App() {
 
         // Products route, protected by ProtectedRoute
         {
-          path: "/products",
+          path: "products",
           element: (
             <ProtectedRoute>
               <Products />
