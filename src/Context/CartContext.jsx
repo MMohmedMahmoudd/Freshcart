@@ -119,7 +119,7 @@ export default function CartContextProvider({ children }) {
     }
     try {
       let { data } = await axios.post(
-        `${baseUrl}/api/v1/orders/checkout-session/${Cart.data._id}?url=https://mmohmedmahmoudd.github.io`,
+        `${baseUrl}/api/v1/orders/checkout-session/${Cart.data._id}?url=https://mmohmedmahmoudd.github.io/Freshcart`,
         { shippingAddress },
         { headers: { token } }
       );
