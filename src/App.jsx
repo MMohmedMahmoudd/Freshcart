@@ -83,7 +83,7 @@ function App() {
 
         // AllOrders route, protected by ProtectedRoute
         {
-          path: "Freshcart/allorders",
+          path: "/allorders",
           element: (
             <ProtectedRoute>
               <AllOrders />
